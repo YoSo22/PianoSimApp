@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="489.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.piano.pianosimapp.PianoController">
+    <children>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="431.0" prefWidth="700.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Button fx:id="C" layoutX="8.0" layoutY="126.0" mnemonicParsing="false" onAction="#clickC" prefHeight="224.0" prefWidth="57.0" text="C" />
+                <Button fx:id="D" layoutX="122.0" layoutY="126.0" mnemonicParsing="false" onAction="#clickD" prefHeight="224.0" prefWidth="57.0" text="D" />
+                <Button fx:id="E" layoutX="236.0" layoutY="126.0" mnemonicParsing="false" onAction="#clickE" prefHeight="224.0" prefWidth="57.0" text="E" />
+                <Button fx:id="F" layoutX="293.0" layoutY="126.0" mnemonicParsing="false" onAction="#clickF" prefHeight="224.0" prefWidth="57.0" text="F" />
+                <Button fx:id="G" layoutX="407.0" layoutY="126.0" mnemonicParsing="false" onAction="#clickG" prefHeight="224.0" prefWidth="57.0" text="G" />
+                <Button fx:id="A" layoutX="521.0" layoutY="126.0" mnemonicParsing="false" onAction="#clickA" prefHeight="224.0" prefWidth="57.0" text="A" />
+                <Button fx:id="B" layoutX="635.0" layoutY="126.0" mnemonicParsing="false" onAction="#clickB" prefHeight="224.0" prefWidth="57.0" text="B" />
+                <Button fx:id="CBlack" layoutX="65.0" layoutY="14.0" mnemonicParsing="false" onAction="#clickCBlack" prefHeight="224.0" prefWidth="57.0" text="C#" />
+                <Button fx:id="DBlack" layoutX="179.0" layoutY="14.0" mnemonicParsing="false" onAction="#clickDBlack" prefHeight="224.0" prefWidth="57.0" text="D#" />
+                <Button fx:id="FBlack" layoutX="350.0" layoutY="14.0" mnemonicParsing="false" onAction="#clickFBlack" prefHeight="224.0" prefWidth="57.0" text="F#" />
+                <Button fx:id="GBlack" layoutX="464.0" layoutY="14.0" mnemonicParsing="false" onAction="#clickGBlack" prefHeight="224.0" prefWidth="57.0" text="G#" />
+                <Button fx:id="ABlack" layoutX="578.0" layoutY="14.0" mnemonicParsing="false" onAction="#clickABlack" prefHeight="224.0" prefWidth="57.0" text="A#" />
+                <Button fx:id="Plus" layoutX="188.0" layoutY="433.0" mnemonicParsing="false" onAction="#clickPlus" prefHeight="30.0" prefWidth="162.0" text="+" />
+                <Button fx:id="Minus" layoutX="350.0" layoutY="433.0" mnemonicParsing="false" onAction="#clickMinus" prefHeight="30.0" prefWidth="162.0" text="-" />
+                <Label fx:id="octave" alignment="CENTER" contentDisplay="CENTER" layoutX="231.0" layoutY="396.0" prefHeight="20.0" prefWidth="238.0" text="Octave" textAlignment="CENTER" />
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
