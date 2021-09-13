@@ -1,10 +1,7 @@
 package com.piano.pianosimapp;
 
-
-import javafx.animation.FillTransition;
 import javafx.scene.input.KeyCode;
 import javafx.scene.paint.Color;
-import javafx.util.Duration;
 
 public class PianoKey {
     public Integer number;
